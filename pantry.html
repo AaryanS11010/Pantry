@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantry Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pantry Manager</h1>
+        
+        <!-- Form to Add or Update Items -->
+        <div class="form-group">
+            <input type="text" id="item-name" placeholder="Enter item name">
+            <input type="number" id="item-quantity" placeholder="Enter quantity" min="1">
+            <button id="add-item-btn">Add/Update Item</button>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="form-group">
+            <input type="text" id="search-bar" placeholder="Search for an item...">
+        </div>
+
+        <!-- Display Pantry Items -->
+        <ul id="pantry-list">
+            <!-- Items will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
